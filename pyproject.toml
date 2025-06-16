@@ -5,7 +5,7 @@ description = "MCP server test"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-
+"setuptools>=43.0.0"
 ]
 license = "MIT"
 license-files = ["LICEN[CS]E*"]
