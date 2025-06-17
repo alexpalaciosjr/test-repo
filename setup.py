@@ -11,4 +11,9 @@ setup(
         "setuptools"
     ],
     python_requires=">=3.7",
+    entry_points={
+        "console_scripts": [
+            "test-mcp=test_mcp.__main__:main"
+        ]
+    }
 )
