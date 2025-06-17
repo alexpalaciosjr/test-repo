@@ -13,7 +13,7 @@ setup(
     python_requires=">=3.7",
     entry_points={
         "console_scripts": [
-            "test-mcp=test_mcp.__main__:main"
+            "test-mcp-command=test_mcp.__main__:main"
         ]
     }
 )
