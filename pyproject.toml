@@ -9,3 +9,6 @@ dependencies = [
 ]
 license = "MIT"
 license-files = ["LICEN[CS]E*"]
+
+[project.scripts]
+test-mcp-command = "test_mcp.server:main"
